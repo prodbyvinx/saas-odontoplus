@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OdontoPLUS SaaS
 
-## Getting Started
+Um projeto de SaaS (Software as a Service) desenvolvido a partir do curso "Projeto FullStack SaaS - Next JS, TypeScript, Stripe, Prisma"
+, integrando autenticação, gestão de tarefas e pagamento via Stripe.
 
-First, run the development server:
+## 📚 Sobre o Curso
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O curso ensina:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Configuração do ambiente com Prisma ORM;
+* Criação de modelo de usuário customizado e autenticação;
+* Desenvolvimento de operações CRUD;
+* Integração com Stripe para pagamentos;
+* Controle de versões com Git e GitHub e deploy em produção.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✅ Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Registro, login, e recuperação de senha;
+* Modelo customizado de usuário;
+* CRUD de tarefas (To‑Do);
+* Home com restrição por nível de assinatura;
+* Planos de assinatura: basic x premium;
+* Pagamentos recorrentes via Stripe;
+* Webhooks para processamento de eventos de pagamento;
+* Deploy otimizado para produção.
 
-## Learn More
+## 🚀 Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+* Backend: **Typescript**
+* Frontend: **NextJS**, **ShadcnUI**, **TailwindCSS** & **Lucide**
+* Banco de Dados: **PostgreSQL & Prisma ORM**
+* Pagamentos: **Stripe**
+* Controle de Versão: **Git**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📋 Uso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Registre-se e faça login;
+* Cadastre tarefas (To‑Do) com título e descrição;
+* Assine um plano (gratuito ou pago);
+* Acesse recursos premium se for assinante;
+* Verifique no admin as assinaturas e eventos da Stripe;
+* Agendamento de consultas.
 
-## Deploy on Vercel
+## 🧩 Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contribuições são bem-vindas!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Fork este projeto
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
+
+## 🤝 Licença
+
+MIT License © Vinícius Henrique Beira
